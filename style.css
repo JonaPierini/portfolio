@@ -1,0 +1,387 @@
+/* NavBar */
+.navbar-light{
+    background-color: rgba(0, 0, 0, 0.9);  
+    
+}
+
+.navbar{
+    color: #ffffff ;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    text-decoration: none!important;
+    
+}
+
+.navbar:hover{
+    color: #f1ee0b;
+}
+
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.navbar-toggler{
+    border-color: transparent!important;
+}
+
+.nav-link{
+    text-align: center;
+    color: #ffffff !important;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* First-Section */
+
+.firstSection{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.firstSection-img img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.firstSection-text{
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 0%;
+}
+
+.firstSection-text h1{
+    font-size: 120px;
+  
+}
+
+.firstSection-text p{
+    font-size: 40px;
+}
+
+
+/* secondSection */
+
+.secondSection{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    flex-direction: column;
+    
+}
+
+.secondSection h2{
+    width: 600px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+.secondSection p{
+    width: 600px;
+    
+}
+
+/* thirdSection */
+
+.thirdSection{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.thirdSection h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+.thirdSection ul li{
+    display: list-item;
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.fourSection{
+    margin-top: 50px;
+}
+
+/* fourSection */
+
+.fourSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.fourSection h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+.fourSection-imgConteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.fourSection-img{
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    
+}
+
+.fourSection-img img{
+    width: 35px;
+    height: 35px;
+
+   
+}
+
+/* fiveSection */
+.fiveSection{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.fiveSection h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+/* sixSection */
+
+.sixSection{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.sixSection h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+.sixSection-li{
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+/* sevenSection */
+.sevenSection{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.sevenSection h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+.sevenSection a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+    
+}
+
+.sevenSection a:hover{
+    border-bottom: solid 2px #AE03FF;
+
+}
+
+/* eightSection */
+.eightSection{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #ffffff;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+
+.eightSection h2{    
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+.eightSection-imgContactos a img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.eightSection p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+@media (max-width: 940px){
+
+    /* FirstSection */
+
+    .firstSection-img img{
+        width: 250px;
+        height: 250px;
+     
+    }
+
+    .firstSection-text h1{
+        font-size: 100px;
+      
+    }
+
+    /* SecondSection */
+
+    .secondSection h2{
+    width: 400px;
+    
+}
+
+    .secondSection p{
+    width: 400px;
+    
+}
+
+    /* ThirdSection */
+
+    .thirdSection ul li{
+    width: 400px;
+    
+}
+    
+}
+
+@media (max-width: 576px){
+        /* FirstSection */
+   
+        .firstSection-text h1{
+            font-size: 80px;
+          
+        }
+
+        .firstSection-text p{
+            font-size: 30px;
+        }
+    
+        /* SecondSection */
+    
+        .secondSection h2{
+        width: 350px;
+        
+    }
+    
+        .secondSection p{
+        width: 350px;
+        
+    }
+    
+        /* ThirdSection */
+    
+        .thirdSection ul li{
+        width: 350px;
+        
+    }
+    
+}
+
+@media (max-width: 480px){
+
+
+    /* FirstSection */
+
+    .firstSection-img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .firstSection-img img{
+        width: 250px;
+        height: 250px;
+     
+    }
+
+    .firstSection-text h1{
+        font-size: 60px;
+      
+    }
+
+    /* SecondSection */
+
+    .secondSection h2{
+    width: 300px;
+    
+}
+
+    .secondSection p{
+    width: 300px;
+    
+}
+
+    /* ThirdSection */
+
+    .thirdSection ul li{
+        width: 250px;
+    }
+
+    /* SixSection */
+    .sixSection h2{
+        width: 250px;
+        text-align: center;
+    }
+
+    .sixSection ul{
+        width: 300px;
+    }
+    
+}
+    
+
+
