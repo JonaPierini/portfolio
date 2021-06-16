@@ -225,14 +225,23 @@
 .sevenSection a{
     text-decoration: none;
     color: rgb(0, 0, 0);
-    margin-bottom: 15px;
-    
+       
+}
+
+.sevenSectionNoTanto{
+    margin-bottom: 20px;
+}
+
+.sevenSectionA{
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .sevenSection a:hover{
-    border-bottom: solid 2px #AE03FF;
+    border-bottom: solid 2px #490668;
 
 }
+
 
 /* eightSection */
 .eightSection{
@@ -296,6 +305,13 @@
     width: 400px;
     
 }
+
+     /* sevenSection */
+     .imagenesProyectos{
+        width: 500px;
+        
+    }
+    
     
 }
 
@@ -329,7 +345,14 @@
         width: 350px;
         
     }
-    
+
+    /* sevenSection */
+    .imagenesProyectos{
+        width: 400px;
+        
+    }
+
+   
 }
 
 @media (max-width: 480px){
@@ -381,6 +404,14 @@
         width: 300px;
     }
     
+
+    /* sevenSection */
+    .imagenesProyectos{
+        margin: 5px;
+        width: 310px;
+        height: 200px;
+    }
+
 }
     
 
