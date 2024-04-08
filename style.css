@@ -208,7 +208,7 @@
 
 /* sevenSection */
 .sevenSection{
-    margin-top: 50px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -228,14 +228,6 @@
        
 }
 
-.sevenSectionNoTanto{
-    margin-bottom: 20px;
-}
-
-.sevenSectionA{
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
 
 .sevenSection a:hover{
     border-bottom: solid 2px #490668;
