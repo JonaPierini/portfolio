@@ -16,7 +16,7 @@ export const Contact = () => {
         >
           Email
         </a>
-        <br />
+
         <a
           className="linkedin-link"
           href="https://www.linkedin.com/in/jonatanpierini-/"

@@ -11,6 +11,10 @@
   margin-bottom: 1.5rem;
 }
 
+.email-link {
+  margin-right: 20px;
+}
+
 .email-link,
 .linkedin-link {
   background-color: #2c2c2c; /* Un gris oscuro sólido */
