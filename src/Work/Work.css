@@ -1,0 +1,78 @@
+.container-work {
+  margin-top: 5rem;
+}
+
+.container-work h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Diseño inicial: 3 columnas */
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6 {
+  background-color: #2c2c2c; /* Un gris oscuro sólido */
+  border-radius: 10px;
+  padding: 20px;
+  color: #d6d2d2; /* Texto claro */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave */
+  cursor: pointer; /* Cursor de puntero al pasar el mouse */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidad */
+}
+
+.div1:hover,
+.div2:hover,
+.div3:hover,
+.div4:hover,
+.div5:hover,
+.div6:hover {
+  background-color: #3a3a3a; /* Un gris un poco más claro al hacer hover */
+  transform: translateY(-5px); /* Levantar la card al hacer hover */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7); /* Aumentar la sombra al hacer hover */
+}
+
+/* Asegurarte de que el texto dentro de los enlaces se mantenga claro */
+.div1 a,
+.div2 a,
+.div3 a,
+.div4 a,
+.div5 a,
+.div6 a {
+  color: inherit; /* Hereda el color del texto */
+  text-decoration: none; /* Quitar subrayado de los enlaces dentro de las cards */
+}
+
+.div1 a:hover,
+.div2 a:hover,
+.div3 a:hover,
+.div4 a:hover,
+.div5 a:hover,
+.div6 a:hover {
+  color: #ffffff; /* Cambiar el color del texto en hover si deseas */
+}
+
+@media (max-width: 1024px) {
+  .parent {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    grid-template-rows: auto;
+  }
+}
+
+/* En pantallas pequeñas (por ejemplo, móviles) 1 columna */
+@media (max-width: 768px) {
+  .parent {
+    grid-template-columns: 1fr; /* 1 columna */
+    grid-template-rows: auto;
+  }
+}

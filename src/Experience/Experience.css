@@ -1,0 +1,39 @@
+.container-experience {
+  margin-top: 5rem;
+
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.container-experience h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.experience-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.experience-list li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.job-title {
+  font-weight: bold;
+  color: #c0c0c0;
+}
+
+.date {
+  font-style: italic;
+  color: #555;
+}
+
+.experience-list li:last-child {
+  border-bottom: none;
+}

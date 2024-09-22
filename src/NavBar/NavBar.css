@@ -1,0 +1,36 @@
+/* container NavBar */
+.container-navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: rgb(37, 35, 35);
+  z-index: 100;
+}
+
+/* Logo NavBar */
+.logo-navBar li {
+  list-style-type: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+/* Item NavBar */
+.item-navBar {
+  display: flex;
+  margin-right: 20px;
+}
+
+.item-navBar li {
+  margin-right: 10px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.item-navBar a {
+  padding: 5px;
+  cursor: pointer;
+}

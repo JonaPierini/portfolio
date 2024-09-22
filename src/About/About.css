@@ -1,0 +1,15 @@
+.container-about {
+  margin-top: 5rem;
+
+  line-height: 2.25rem;
+}
+
+.container-about h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.container-about p {
+  font-size: 1.2rem;
+  color: #d6d2d2; /* Texto claro */
+}

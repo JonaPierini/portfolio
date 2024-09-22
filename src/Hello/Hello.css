@@ -1,0 +1,13 @@
+.container-hello {
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2.8rem;
+  line-height: 1;
+}
+
+@media (max-width: 1024px) {
+  .container-hello {
+    font-size: 2rem;
+  }
+}
